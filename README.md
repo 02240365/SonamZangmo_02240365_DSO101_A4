@@ -54,10 +54,13 @@ python app.py
 
 App runs at: `http://localhost:5000`
 
-📸 **Screenshot: Terminal showing all 6 tests passed**
+📸 **Terminal showing all 6 tests passed**
+
+![SS](./a4images/a4test.png)
 
 📸 **Screenshot: Browser showing http://localhost:5000 returning JSON response**
 
+![SS](./a4images/a4local.png)
 ---
 
 ## CI/CD Pipeline
@@ -72,10 +75,12 @@ Triggers on every push to `main` branch.
 4. Run tests (`pytest test_app.py -v`)
 5. Deploy to Render via webhook
 
-📸 **Screenshot: GitHub Actions showing all steps green**
+📸 **GitHub Actions showing all steps green**
 
-📸 **Screenshot: Test output showing 6 tests passed**
+![SS](./a4images/gita4.png)
 
+📸 **Test output showing 6 tests passed**
+![SS](./a4images/workflowa4.png)
 ---
 
 ## Deployment on Render
@@ -90,9 +95,13 @@ Triggers on every push to `main` branch.
 4. Click **Create Web Service**
 5. Copy the **Deploy Hook URL** from Settings → add as GitHub Secret `RENDER_DEPLOY_HOOK`
 
-📸 **Screenshot: Render service showing Live status and URL**
+📸 **Render service showing Live status and URL**
 
-📸 **Screenshot: Live app URL in browser showing JSON response**
+![SS](./a4images/a4live.png)
+
+📸 **Live app URL in browser showing JSON response**
+
+![SS](./a4images/a4renderlive.png)
 
 ---
 
@@ -130,4 +139,4 @@ Triggers on every push to `main` branch.
 ## Live URL
 
 - **App:** https://sonamzangmo-02240365-dso101-a4.onrender.com  
-- **GitHub Repo:** https://github.com/02240365/sonamzangmo_02240365_DSO101_A4
+- **GitHub Repo:** https://github.com/02240365/SonamZangmo_02240365_DSO101_A4.git
