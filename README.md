@@ -1,4 +1,4 @@
-# Assignment 4 — CI/CD Pipeline with Testing & Deployment
+# Assignment 4 - CI/CD Pipeline with Testing & Deployment
 
 **Name:** Sonam Zangmo  
 **Student ID:** 02240365  
@@ -58,7 +58,7 @@ App runs at: `http://localhost:5000`
 
 ![SS](./a4images/a4test.png)
 
-📸 **Screenshot: Browser showing http://localhost:5000 returning JSON response**
+📸 **Browser showing http://localhost:5000 returning JSON response**
 
 ![SS](./a4images/a4local.png)
 ---
@@ -80,7 +80,9 @@ Triggers on every push to `main` branch.
 ![SS](./a4images/gita4.png)
 
 📸 **Test output showing 6 tests passed**
+
 ![SS](./a4images/workflowa4.png)
+
 ---
 
 ## Deployment on Render
@@ -120,11 +122,11 @@ Triggers on every push to `main` branch.
 3. Created GitHub Actions workflow (`ci.yml`)
 4. Deployed app to Render as a Python web service
 5. Added Render deploy hook as GitHub Secret
-6. Pushed code — pipeline ran automatically, tests passed, app deployed
+6. Pushed code - pipeline ran automatically, tests passed, app deployed
 
 ## Challenges Faced
 
-- Render does not auto-deploy on git push by default for existing image deploys — solved by using the Render Deploy Hook URL triggered via `curl` in the workflow.
+- Render does not auto-deploy on git push by default for existing image deploys - solved by using the Render Deploy Hook URL triggered via `curl` in the workflow.
 - Flask test client needs `TESTING=True` config to work properly with pytest fixtures.
 
 ## Learning Outcomes
